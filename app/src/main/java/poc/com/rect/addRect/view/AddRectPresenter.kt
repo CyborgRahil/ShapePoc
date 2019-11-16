@@ -38,7 +38,7 @@ constructor(private val addRectUseCase: AddRectUseCase, private val schedulerPro
     }
 
     private fun makeCoordinateString(rectData: ArrayList<RectEdgeBall>): String? {
-        rectData.sortBy { rectEdgeBall -> rectEdgeBall.x }
+        rectData.sortBy { rectEdgeBall -> rectEdgeBall.y }
         var result = StringBuilder()
         result.append("Coordinates:{")
         for (i in rectData.indices) {

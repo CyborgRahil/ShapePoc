@@ -199,4 +199,10 @@ class RectDrawView : View {
        return  rectEdgeBalls
     }
 
+    override fun onDetachedFromWindow() {
+        super.onDetachedFromWindow()
+        // View is now detached, and about to be destroyed
+        rectEdgeBalls.clear()
+        balID = -1
+    }
 }
