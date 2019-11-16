@@ -4,7 +4,7 @@ Added some unit test cases. Each time you draw a single rectangle which is resiz
 When you save the coordinate of rectangle then you can easily see in list of coordinate on homescreen.  
 Coordinate of Square or Rectangle:
 
-                     (X1, Y1)						             (X4, Y4)
+                      (X1, Y1)						(X2, Y2)
 
 
 
@@ -18,6 +18,5 @@ Coordinate of Square or Rectangle:
 
 
 
+                      (X3, Y3)						(X4, Y4)
 
-
-                  (X2, Y2)						               (X3, Y3)
