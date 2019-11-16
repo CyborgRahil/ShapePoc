@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NikiAIPoc</string>
+    <string name="error_message">Please try again.</string>
+    <string name="rect_list_blank_message">Please add a rectangle.</string>
+</resources>
